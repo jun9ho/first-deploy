@@ -11,7 +11,7 @@ async function getResumeInfo() {
 }
 
 async function getPortfolioInfo() {
-  const res = await fetch('https://raw.githubusercontent.com/jun9ho/first-deploy/refs/heads/0.3/general_info/service/resume_portfolio_service.json');
+  const res = await fetch('https://raw.githubusercontent.com/jun9ho/first-deploy/refs/heads/0.3/portfolio_info/service/resume_portfolio_service.json');
   // API 응답이 성공적인지 확인
   if (!res.ok) {
     // 응답이 실패하면 오류를 던져 Next.js가 오류 페이지를 보여주도록 함
