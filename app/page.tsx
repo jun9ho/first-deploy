@@ -43,19 +43,19 @@ export default async function Home() {
             </code>
             입니다.
             <br /> 
-            제 GitHub 주소는
+            제 GitHub 주소는{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
             {resumeData.github}
             </code>
             입니다.
             <br /> 
-            제 첫 프로젝트 이름은
+            제 첫 프로젝트 이름은{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
             {portfolioData.project_name}
             </code>
             입니다.
             <br />
-            이 프로젝트는
+            이 프로젝트는{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
             {portfolioData.project_info}
             </code>
